@@ -6,10 +6,10 @@
 // "via" = apps/wallets where the promo can be bought or paid (sample, please verify).
 // Each app has a code (used in the "via" lists below) and a label (shown in the UI).
 export const apps = [
-  { code: "gcash",   label: "GCash" },
-  { code: "maya",    label: "Maya" },
-  { code: "mbank",   label: "MariBank" },
-  { code: "saripay", label: "SariPay" },
+  { code: "g",   label: "G" },
+  { code: "m",    label: "M" },
+  { code: "mb",   label: "Mb" },
+  { code: "s", label: "S" },
 ];
 // price: null = price not known yet, the UI shows "See app"
 export const priceLabel = (p) => (p.price == null ? "See app" : `₱${p.price}`);
